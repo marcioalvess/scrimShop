@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(37, 37, 51);
+ /* background-image: url('./image/fundobody.jpeg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  */
+  
+}
+
+.app-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+/* Efeito de vidro np container 
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);*/
+}
+
+.register-container{
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+  margin: 0 auto;
+  
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.register-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family:monospace;
+}
+
+h1{/* texto com gradiente */
+  background-image: 
+  linear-gradient(to right, #dad60d, #5a444fbd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent
+} 
+
+.register-input{
+  display: block;
+  margin: 10px auto;
+  padding: 7px 0;
+  border-radius: 5px;
+  
+}
+
+.register-button{
+  padding: 2px 5px;
+  background-color: #dad60d;
+  
+  /* efeito outline */
+  border-radius: 50px;
+  outline: 2px solid #5a444fbd;
+  outline-offset: 2px;
+}
